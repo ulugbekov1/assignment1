@@ -1,0 +1,17 @@
+{
+  "C_Cpp.default.cStandard": "c11",
+  "C_Cpp.debugShortcut": false,
+  "files.eol": "\n",
+  "files.associations": {
+    "*.c": "c"
+  },
+  "code-runner.runInTerminal": true,
+  "code-runner.saveFileBeforeRun": true,
+  "code-runner.preserveFocus": false,
+  "code-runner.ignoreSelection": true,
+  "code-runner.clearPreviousOutput": true,
+  "code-runner.executorMap": {
+    "c": "cd $dir && gcc -Wall -std=c11 $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt"
+  },
+  "terminal.integrated.defaultProfile.windows": "Command Prompt"
+}

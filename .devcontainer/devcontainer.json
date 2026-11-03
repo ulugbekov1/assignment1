@@ -1,0 +1,21 @@
+{
+  "name": "C (gcc)",
+  "image": "mcr.microsoft.com/devcontainers/cpp:2-ubuntu-24.04",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-vscode.cpptools",
+        "formulahendry.code-runner"
+      ],
+      "settings": {
+        "C_Cpp.default.compilerPath": "/usr/bin/gcc"
+      }
+    },
+    "codespaces": {
+      "openFiles": [
+        "README.md",
+        "ex1.c"
+      ]
+    }
+  }
+}
